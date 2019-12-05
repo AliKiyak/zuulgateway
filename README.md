@@ -1,5 +1,5 @@
 # Zuul gateway
-The Zuul gateway is a load balancer that connects to our edge service. The Eureka Server is an application that holds the information about all client-service applications. Every Micro service will register into the Eureka server and Eureka server knows all the client applications running on each port and IP address. Eureka Server is also known as Discovery Server.
+The Zuul gateway is a load balancer that connects to our edge service. It filters sensitive data and connects to our Edge service using Dynamic routing.
 
 ## Context
 The Esports wiki allows you to find every bit of information about the games, teams, tournaments and players that are involved in Esports. You can look at them in detail, add, delete or even edit them. This way you can keep your own database about your favorite esports game / team.
